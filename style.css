@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+ 
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li a {
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+  }
+  
+  .page-content {
+    padding: 20px;
+  }
+  
+  .page-content header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .page-content header h1 {
+    margin-bottom: 10px;
+  }
+  
+  .page-content header p {
+    margin: 0;
+  }
+  
+  .presentation-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .presentation-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .competences {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .competences li {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+
+/* Styles pour les sections de projet */
+.h1,h4 .projects-section {
+  margin-bottom: 10px;
+}
+
+h1  .projects-section{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h4 .projects-section {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p .projects-section {
+  margin-bottom: 20px;
+}
+
+a  .projects-section{
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+
+
+/* Project Profile Styles */
+
+.Project-profile {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.Project-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.Project-profile ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Project-profile li {
+  margin-right: 20px;
+}
+
+.Project-profile a {
+  color: #030303;
+}
+
+/* Projects Section Styles */
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  padding: 20px;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.card {
+  width: 456px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+
+.card-content a {
+  text-decoration: none;
+}
+.card p {
+    color: #555;
+}
+
+@media screen and (max-width: 768px) {
+ .card {
+      width: 100%;
+  }
+}
+ /*veille technologique*/
+ .Veille_technologique {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.Veille_technologique img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+.Veille_technologique ul {
+    list-style-type: none;
+    padding: 100px;
+}
+
+.Veille_technologique li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+.veille_techonlogique {
+    padding: 5px;
+}
+
+.veille_techonlogique h1 {
+    margin-top: 0;
+}
+
+.veille_techonlogique h4 {
+    margin-bottom: 5px;
+}
+
+.veille_techonlogique p {
+    margin-top: 5px;
+}
+
+.veille_techonlogique img {
+   display:block; 
+  width: 30%;
+  margin:auto;
+  }
+
+  .veille_technologique .container {
+    background-color: #d9d9d9;
+    padding: 50px;
+    margin-bottom: 50px;
+   
+}
+
+
+.veille_technologique.container h4 {
+  text-align: center;
+}
+
+.Reacth {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+
+
+@media (max-width: 600px) {
+   .Veille-technologique img {
+        width: 50px;
+        height: 50px;
+    }
+
+   .Veille-technologique li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/****BTS SIO******/
+.Bts.sio {
+    background-color: #333;
+    height: 80px;
+    display: table-column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Bts.sio ul {
+    list-style-type: none;
+    padding: 100px;
+}
+
+.Bts.sio ul li {
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.Bts.sio ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+h1, h4 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: #888888;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.h4 .container{
+  text-align: justify;
+    margin-top: 100px;
+}
+.description {
+    text-align: justify;
+    padding: 0 20px;
+    list-style-type: none;
+}
+.description ul{
+  list-style: none;
+}
+.Bts.sio ul{
+  list-style-type: none;
+}
+.Accueil {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+/* Media Queries pour les écrans de taille spécifique */
+@media only screen and (max-width: 768px) {
+    .Project-profile {
+        justify-content: center;
+    }
+
+    .Project-profile ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .projects-section {
+        padding: 10px;
+    }
+}
+.deux-freres{
+    width: 30% ;
+}
+.DeuxFreres{
+    width:70%;
+    display: block;
+    margin:0 auto;
+
+}
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.colonne {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.colonne a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.colonne img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ddd;
+}
+.Reacth{
+    width:50%
+}
+.imgr{
+    
+width :200px;
+display: block;
+margin:0 auto;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.contact-page .home {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+.contact-page ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-page a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-page a:hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width:768px){
+    nav{
+        justify-content: center;
+    }
+   nav ul{
+       display:block;
+   }
+
+   nav ul li{
+       margin-left: 0;
+   }
+   .page-content header{
+       margin: top 10%;
+       max-width: 100%;
+   }
+   .page-content .projects-section {
+       margin-top:15%;
+   } 
+   .page-content .projects-section h1{
+       font-size: 1,5em;
+   }
+   .page-content .projects-section .projects .project{
+       margin-right: 0;
+       margin-bottom: 20px;
+       max-width:100px;
+   }
+   footer{
+       justify-content: flex-start;
+   }
+}
+.projects-section article .project{
+    display: flex;
+    flex-direction: column;
+    margin: left 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Project-profile {
+        justify-content: center;
+    }
+
+    .Project-profile ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .projects-section {
+        padding: 10px;
+    }
+}
+.Project-profile {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Project-profile ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Project-profile ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.Project-profile ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.veille_technologique {
+    padding: 20px;
+}
+
+.veille_technologique h1 {
+    margin-bottom: 10px;
+}
+
+.veille_technologique h4 {
+    margin-top: 0;
+}
+
+.veille_technologique .description {
+    font-style: italic;
+}
+
+.veille_technologique .date {
+    font-size: 14px;
+    color: #888;
+}
+
+.veille_technologique img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.veille_technologique .container {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.veille_technologique .container .h4 {
+text-align: center;
+  }
+
+@media only screen and (max-width: 480px) {
+    .Accueil {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.projet-jeu-demineur{
+    
+  width :500px;
+  display: block;
+  margin:0 auto;
+  }
+
+  .projet-jeu-demineur-pdf{
+    width :500px;
+    display: block;
+    margin:0 auto;
+  }
+
+
+  form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  form h1 {
+    font-size: 20px;
+  }
+  form .separation {
+    width: 100%;
+    height: 1px;
+    background-color: #747cdf;
+  }
+  form .corps-formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  form .corps-formulaire .groupe {
+    position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 5px;
+  }
+  form .corps-formulaire .gauche .groupe i {
+    position: absolute; /* positionné par rapport à son parent le plus proche positionné */
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #747cdf;
+  }
+  form .corps-formulaire .droite {
+    margin-left: 40px;
+  }
+  form .corps-formulaire .droite .groupe {
+    height: 100%;
+  }
+  form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #747cdf;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+  }
+  form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #747cdf;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  form .pied-formulaire button:hover {
+    transform: scale(1.05);
+  }
+  
+  @media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+      margin-left: 0px;
+    }
+  }
+  
+
+
