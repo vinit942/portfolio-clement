@@ -44,6 +44,21 @@
             background-color: #007bff; /* Couleur de fond du bouton au survol */
             border-color: #007bff; /* Couleur de la bordure du bouton au survol */
         }
+        .skills {
+            background-color: rgba(52, 58, 64, 0.9); /* Fond sombre légèrement transparent */
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .skills h5 {
+            margin-bottom: 10px;
+        }
+        .skills ul {
+            padding-left: 20px;
+        }
+        .skills li {
+            list-style-type: disc;
+        }
     </style>
 </head>
 <body>
@@ -103,15 +118,24 @@
                             Actuellement en deuxième année de BTS Services Informatiques aux Organisations (SIO), je suis passionné par le développement et déterminé à exceller dans ce domaine. 
                             <br>Mon objectif est de perfectionner mes compétences techniques et d'acquérir constamment de nouvelles connaissances pour répondre aux défis du secteur informatique. 
                             <br>Mon parcours académique et mes projets reflètent mon engagement et ma volonté de devenir un professionnel compétent et innovant.
-                            
                         </p>
+                        <div class="skills">
+                            <h5>Compétences</h5>
+                            <ul>
+                                <li>SQL</li>
+                                <li>Java</li>
+                                <li>PHP</li>
+                                <li>HTML/CSS</li>
+                                <li>langage C</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
     
-    <footer class=" bg-dark text-white text-center py-3">
+    <footer class="bg-dark text-white text-center py-3 position-relative">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -119,7 +143,7 @@
                         <img class="linkedin" src="linkedin.png" alt="LinkedIn" style="width: 30px;">
                     </a>
                 </div>
-                <div class="col  active">
+                <div class="col active">
                     Clement Thavarajan &copy; 2024
                 </div>
                 <div class="col">
